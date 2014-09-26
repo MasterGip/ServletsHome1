@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>N1Servlet</servlet-name>
+        <servlet-class>ru.kfu.itis.N1Servlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>N1Servlet</servlet-name>
+        <url-pattern>/N1Servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>N2Servlet</servlet-name>
+        <servlet-class>ru.kfu.itis.N2Servlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>N2Servlet</servlet-name>
+        <url-pattern>/N2Servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>N3Servlet</servlet-name>
+        <servlet-class>ru.kfu.itis.N3Servlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>N3Servlet</servlet-name>
+        <url-pattern>/N3Servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>N4Servlet</servlet-name>
+        <servlet-class>ru.kfu.itis.N4Servlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>N4Servlet</servlet-name>
+        <url-pattern>/N4Servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>N5Servlet</servlet-name>
+        <servlet-class>ru.kfu.itis.N5Servlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>N5Servlet</servlet-name>
+        <url-pattern>/N5Servlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
